@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nyash04/boilerplate-webpack.git",
+  "author": "yashnarola <yashnarola23@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "del-cli dist && webpack --mode production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "del-cli": "^4.0.1",
+    "handlebars-webpack-plugin": "^2.2.1",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-remove-empty-scripts": "^0.7.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.0"
+  }
+}

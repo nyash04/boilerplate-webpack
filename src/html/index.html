@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ {{> partials/head title="Home"}}
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  {{> partials/navbar classList="navbar-light bg-white" container="container"}} 
+
+  <div class="container">
+    <h1>Hello World</h1>
+    <h4 class="text-secondary">Secondary text</h4>
+    <p data-aos="fade-right">Fade right</p>
+    <span data-bs-toggle="tooltip" title="tooltip">Tooltip</span>
+  </div>
+
+  <!-- FOOTER -->
+  {{> partials/footer classList="bg-gray-200"}}
+
+  <!-- JAVASCRIPT -->
+  {{> partials/scripts}}
+</body>
+</html>
